@@ -16,22 +16,17 @@ ASK2SQL is an interactive Python tool that allows users to ask natural language 
 ## 🛠️ Installation
 
 ### 1. Clone the repository
-
-```bash
 git clone https://github.com/yourusername/ask2sql.git
 cd ask2sql
 
-## 2. Set up a virtual environment
-
+### 2. Set up a virtual environment
 conda create -n ask2sql python=3.11
 conda activate ask2sql
 
-## 3. Install dependencies
-
+### 3. Install dependencies
 pip install -r requirements.txt
 
-## 🔑 Environment Variables
-
+### 🔑 Environment Variables
 GOOGLE_API_KEY=your_google_api_key
 USER=your_mysql_username
 PASSWORD=your_mysql_password
@@ -40,18 +35,16 @@ PORT=3306
 DB_NAME=your_database_name
 MODEL=gemini-2.0-flash  # or another supported Google model
 
-## ▶️ Usage
-
+### ▶️ Usage
 python main.py
 
-## 🧩 Tech Stack
-
+### 🧩 Tech Stack
 LangChain
 Google Generative AI (Gemini)
 MySQL
 dotenv
 
-## 📂 Project Structure
+### 📂 Project Structure
 
 ask2sql/
 │
@@ -62,7 +55,7 @@ ask2sql/
 ├── README.md            
 └── requirements.txt    
 
-## 🙌 Acknowledgements
+### 🙌 Acknowledgements
 
 OpenAI for inspiration on conversational apps
 LangChain team for awesome abstractions
