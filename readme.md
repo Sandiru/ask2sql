@@ -49,10 +49,10 @@ python main.py
 ```
 
 ### 🧩 Tech Stack
--LangChain
--Google Generative AI (Gemini)
--MySQL
--dotenv
+- LangChain
+- Google Generative AI (Gemini)
+- MySQL
+- dotenv
 
 ### 📂 Project Structure
 
@@ -67,9 +67,9 @@ ask2sql/
 
 ### 🙌 Acknowledgements
 
--OpenAI for inspiration on conversational apps
--LangChain team for awesome abstractions
--Google for the Gemini API
+- OpenAI for inspiration on conversational apps
+- LangChain team for awesome abstractions
+- Google for the Gemini API
 
 
 
